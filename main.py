@@ -35,7 +35,8 @@ data.pack(pady=2)
 horas = Label(root, bg='#E6E6FA', fg='#DC143C', font=('Montserrat', 64, 'bold'))
 horas.pack(pady=2)
 
-
+botao = tk.Button(root, text="botão de teste", bg='#E6E6FA', fg='#DC143C', font=('Montserrat', 16))
+botao.pack()
 
 get_saudacao()
 get_data()
